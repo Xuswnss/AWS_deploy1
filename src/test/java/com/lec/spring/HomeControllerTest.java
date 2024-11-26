@@ -23,7 +23,7 @@ class HomeControllerTest {
         /*TODO
             1번째 매개변수가 2번째 매개변수랑 같다면 어쩌구 하는거 = assertEqulas
          */
-       assertEquals("<h1>AWS 배포 v1</h1>", response.getBody());
+       assertEquals("<h1>AWS 배포 v1.1</h1>", response.getBody());
     }
 
 
